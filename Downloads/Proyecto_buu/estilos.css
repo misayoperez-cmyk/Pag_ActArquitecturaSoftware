@@ -148,3 +148,13 @@ button[type="submit"]:hover {
 .dark-mode button[type="submit"] {
   background-color: #16a34a;
 }
+
+input:invalid {
+  border: 2px solid #ef4444; /* rojo */
+  background-color: #fee2e2; /* fondo rosita */
+}
+
+input:valid {
+  border: 2px solid #22c55e; /* verde */
+  background-color: #dcfce7; /* fondo verde claro */
+}
